@@ -1,0 +1,42 @@
+body {
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	margin: 0;
+	padding: 1rem;
+	background: #f7f7fb;
+	color: #111;
+}
+
+main {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0 0 1rem 0;
+	font-size: 1.5rem;
+}
+
+.chunk-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.chunk-item {
+	background: #fff;
+	border: 1px solid #e6e9ef;
+	padding: 0.75rem;
+	margin-bottom: 0.5rem;
+	border-radius: 6px;
+}
+
+.chunk-text {
+	margin: 0 0 0.5rem 0;
+	white-space: pre-wrap;
+}
+
+.chunk-meta {
+	font-size: 0.85rem;
+	color: #666;
+}
+
